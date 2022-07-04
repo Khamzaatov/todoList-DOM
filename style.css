@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 93, 93);
+    font-family: "Gilroy";
+}
+.container {
+    margin-top: 50px;
+    width: 350px;
+    height:350px;
+    background-color : rgb(233, 231, 231);
+    border-radius: 10px;
+}
+.todo__title {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+.user-window {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.input {
+    width: 85%;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px;
+}
+.btn {
+    width: 10%;
+    border-radius: 5px;
+    border: 1px solid black
+
+}
